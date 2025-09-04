@@ -1,0 +1,64 @@
+/* In frontend-service/public/style.css */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+#url-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+#shorten-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+#shorten-btn:hover {
+    background-color: #0056b3;
+}
+
+#result-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9f5ff;
+    border: 1px solid #b3d7ff;
+    border-radius: 4px;
+}
+
+#short-url {
+    font-weight: bold;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
