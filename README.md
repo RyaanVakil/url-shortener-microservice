@@ -53,7 +53,7 @@ You will need **Docker** and **Docker Compose** installed on your machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/RyaanVakil/url-shortener-microservice.git](https://github.com/RyaanVakil/url-shortener-microservice.git)
+    git clone https://github.com/RyaanVakil/url-shortener-microservice.git
     cd url-shortener-microservice
     ```
 
